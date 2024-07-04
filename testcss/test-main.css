@@ -39,7 +39,7 @@ main {
   font-weight: bold;
 }
 .write-btn {
-  background-color: #fe6f0f;
+  background-color: var(--button-primary);
   color: white;
   padding: 10px 15px 10px 10px;
   font-size: 15px;
@@ -52,7 +52,7 @@ main {
   transition: all 1s ease-in-out;
 }
 .write-btn:hover {
-  background-color: aquamarine;
+  background-color: var(--button-hover);
   color: black;
   transform: rotateX(360deg);
 }
